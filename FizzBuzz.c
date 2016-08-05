@@ -8,7 +8,11 @@ int main() {
 		{
 			printf("Fizz");
 		}
-		else
+		if (i % 5 == 0)
+		{
+			printf("Buzz");
+		}
+		if (i % 5 != 0 && i % 3 != 0)
 		{
             printf("%d", i);
 		}
