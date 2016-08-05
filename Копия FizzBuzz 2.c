@@ -8,10 +8,11 @@ int main() {
 		{
 			printf("Fizz");
 		}
-		else
+		if (i % 5 == 0)
 		{
-            printf("%d", i);
+			printf("Buzz");
 		}
+		
         printf("\n");
 	}	
 
